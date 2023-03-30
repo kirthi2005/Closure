@@ -37,3 +37,11 @@ Example:
       6
       3
    
+   Points to Remember:
+   
+    - controls the variable that are being shared with the nested function
+    - the inner function has access to the variables in its local scope, parent function and in the global scope 
+    - In Js, we can use private variables and methods using closure
+    - helps in maintaining the state between each function calls without using a global variable.
+    - closure is created at function definition not at function invocation.
+
